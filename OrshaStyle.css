@@ -1,0 +1,70 @@
+
+    body {
+         margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;
+        background: #e6aee0;
+        background: radial-gradient(circle, rgba(230, 174, 224, 1) 0%, rgba(226, 186, 247, 1) 40%, rgba(255, 255, 255, 0.94) 100%);
+        color: #2c0303;
+        line-height:1.6;
+    }
+    header{
+        background: linear-gradient(135deg,#cfb1f1 50%,#6e4177 50%);
+        color: white;
+        padding: 1rem;
+    }
+a{
+    color:white;
+    text-decoration: none;
+}
+p{
+     background: linear-gradient(135deg,#cfb1f1 50%,#6e4177 50%);
+        color: white;
+        border-radius:  10px;
+    margin-bottom:1rem;
+    text-align:justify;
+}
+.HistoryText{
+   background: linear-gradient(135deg,#cfb1f1 50%,#6e4177 50%);
+        color: white;
+        border-radius:  10px;
+    margin-bottom:1rem;
+    text-align:justify; 
+}
+.MainText{
+       background: linear-gradient(135deg,#cfb1f1 50%,#6e4177 50%);
+        color: white;
+        border-radius:  10px;
+    margin-bottom:1rem;
+    text-align:justify; 
+}
+.MainPic{ 
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center;
+    object-fit:cover;
+}
+.MainPic1{ 
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center;
+    object-fit:cover;
+}
+.MainPic2{ 
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center;
+    object-fit:cover;
+}
+img {
+     width:550;
+    height: 550;
+    transition: 1s;
+}
+img:hover{
+    transform: scale(1.04);
+}
