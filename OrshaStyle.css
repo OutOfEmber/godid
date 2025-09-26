@@ -53,8 +53,15 @@ p{
    justify-content: center;
     object-fit:cover;
 }
-.MainPic2{ 
-    display:flex;
+.InfPic{
+     display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center;
+    object-fit:cover;
+}
+.InfPic1{
+     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
    justify-content: center;
@@ -64,7 +71,54 @@ img {
      width:550;
     height: 550;
     transition: 1s;
+    padding:10px;
 }
 img:hover{
     transform: scale(1.04);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #6e4177;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cfb1f1;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #6e4177;
+    box-shadow: 0 0 5px rgba(230, 174, 224, 1);
+}
+
+button {
+    background-color: #6e4177;
+    color: #cfb1f1;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #6e4177;
+}
+
+button:active {
+    transform: translateY(1px);
 }
