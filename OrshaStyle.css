@@ -27,6 +27,27 @@ p{
 }
 table{
     text-align: center;
+        color: white;
+        border-radius:  10px;
+    margin-bottom:1rem;
+}
+.Header{
+    color:#2c0303;
+}
+.Head{
+    background: linear-gradient(135deg,#cfb1f1 50%,#d4a1df 50%);
+    color: white;
+    border-radius:  10px;
+    margin-bottom:1rem;
+    text-align:justify;
+    font-size:large;
+}
+.Foot{
+    background: linear-gradient(135deg,#cfb1f1 50%,#6e4177 50%);
+        color: white;
+        border-radius:  10px;
+    margin-bottom:1rem;
+    text-align:justify;
 }
 .HistoryText{
    background: linear-gradient(135deg,#cfb1f1 50%,#6e4177 50%);
@@ -110,6 +131,16 @@ table{
     border:solid #6e4177;
     border-radius:25px;
     box-sizing: border-box;
+}
+.Otkat{
+     display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   justify-items: center;
+    object-fit:cover;
 }
 img {
      width:550;
