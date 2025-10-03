@@ -28,14 +28,13 @@ p{
 table{
     text-align: center;
         color: white;
-        border-radius:  10px;
     margin-bottom:1rem;
 }
 .Header{
     color:#2c0303;
 }
 .Head{
-    background: linear-gradient(135deg,#cfb1f1 50%,#d4a1df 50%);
+    background: linear-gradient(135deg,#cfb1f1 50%,#410d55 50%);
     color: white;
     border-radius:  10px;
     margin-bottom:1rem;
@@ -199,4 +198,66 @@ button:hover {
 
 button:active {
     transform: translateY(1px);
+}
+.diagram_html{
+    float: left;
+    position: relative;
+    border: solid rgb(91, 18, 114);
+    background-color: linear-gradient(135deg,#cfb1f1 50%,#6e4177 50%);
+    width: 500px;
+    height: 100px;
+}
+.diagram_html::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgb(51, 153, 65);
+    width: 20%;
+    height: 100px;
+}
+.diagram_html h4{
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    z-index: 101;
+}
+.diagram_html h2{
+    position: absolute;
+    top: 14px;
+    left: 100px;
+    z-index: 101;
+}
+.diagram_css{
+    margin: 0, auto;
+    float: right;
+    position: relative;
+    border: solid rgb(91, 18, 114);
+    background-color: linear-gradient(135deg,#cfb1f1 50%,#6e4177 50%);
+    width: 500px;
+    height: 100px;
+    
+}
+.diagram_css::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgb(51, 153, 65);
+    width: 75px;
+    height: 100px;
+}
+.diagram_css h4{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 101;
+}
+.diagram_css h2{
+    position: absolute;
+    top: 14px;
+    left: 90px;
+    z-index: 101;
 }
